@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2068535022285516182}
   - component: {fileID: 7690067684568072816}
   - component: {fileID: 443083059465116734}
-  - component: {fileID: 4873242624175882718}
   m_Layer: 0
   m_Name: Left Wall
   m_TagString: Untagged
@@ -84,27 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4873242624175882718
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1421484977776811880}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7146558850109183022
 GameObject:
   m_ObjectHideFlags: 0
@@ -115,6 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4004512488838788380}
   - component: {fileID: 4976855692637971594}
+  - component: {fileID: 8309386075049239131}
   m_Layer: 0
   m_Name: Road
   m_TagString: Untagged
@@ -152,6 +131,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec1d115a4160b854cbf292e3012443ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &8309386075049239131
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7146558850109183022}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 0.5, z: 10}
+  m_Center: {x: 0, y: 0.25, z: 0}
 --- !u!1 &7599679284211893687
 GameObject:
   m_ObjectHideFlags: 0
@@ -163,7 +163,6 @@ GameObject:
   - component: {fileID: 311297960528086973}
   - component: {fileID: 6219792144314971776}
   - component: {fileID: 5903164950169624017}
-  - component: {fileID: 3335996179468544294}
   m_Layer: 0
   m_Name: Right Wall
   m_TagString: Untagged
@@ -236,27 +235,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3335996179468544294
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7599679284211893687}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7688888038260278193
 GameObject:
   m_ObjectHideFlags: 0
