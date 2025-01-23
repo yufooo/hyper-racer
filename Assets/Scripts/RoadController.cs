@@ -25,7 +25,7 @@ public class RoadController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            
+            GameManager.Instance.DestroyRoad(gameObject);
         }
     }
 }
