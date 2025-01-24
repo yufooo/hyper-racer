@@ -65,9 +65,6 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        // _roadIndex 초기화
-        _roadIndex = 0;
-        
         // Road 오브젝트 풀 초기화
         InitializeRoadPool();
         
@@ -102,6 +99,9 @@ public class GameManager : MonoBehaviour
 
     private void StartGame()
     {
+        // _roadIndex 초기화
+        _roadIndex = 0;
+        
         // 도로 생성
         SpawnRoad(Vector3.zero);
         
