@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Transform canvasTransform;
     
     // 자동차
-    private CarController _carController;
+    public CarController _carController;
     
     // 도로 오브젝트 풀
     private Queue<GameObject> _roadPool = new Queue<GameObject>();
@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour
             _instance = this;
         }
         
-        Time.timeScale = 5f;
+        Time.timeScale = 3f;
     }
 
     private void Start()

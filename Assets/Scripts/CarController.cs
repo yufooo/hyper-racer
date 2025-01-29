@@ -19,8 +19,9 @@ public class CarController : MonoBehaviour
     {
         while (true)
         {
-            gas -= 10;
+            
             yield return new WaitForSeconds(1f);
+            gas -= 1;
             if (gas <= 0) break;
         }
         // 게임 종료
