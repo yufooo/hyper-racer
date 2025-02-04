@@ -144,7 +144,7 @@ public class GameManager : MonoBehaviour
     {
         StartPanelController startPanelController = Instantiate(startPanelPrefab, canvasTransform)
             .GetComponent<StartPanelController>();
-        startPanelController.OnStartButtonClick += () =>
+        startPanelController.OnStartButtonClick += () =>//OnStartButtonClick에 내용 넣기 not null인 이유
         {
             StartGame();
             Destroy(startPanelController.gameObject);

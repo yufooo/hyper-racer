@@ -9,6 +9,6 @@ public class StartPanelController : MonoBehaviour
 
     public void OnClickStartButton()
     {
-        OnStartButtonClick?.Invoke();
+        OnStartButtonClick?.Invoke(); //GameManager에서 ShowStartPanel()에서 추가하고 있어서 not null이 된다
     }
 }
